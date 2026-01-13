@@ -36,7 +36,7 @@ a:hover {
     color: white;
 }
 
-li:hover {
+.doctor-list li:hover {
     color: yellow;
     background-color: #78350f;
 }
