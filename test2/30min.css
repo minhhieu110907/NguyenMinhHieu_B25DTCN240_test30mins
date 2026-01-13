@@ -5,20 +5,24 @@
 h1 {
     color: rgb(120,53,15);
     background-color: rgb(253,230,138);
+    text-align: center;
 }
+
+
 
 h2 {
     color: rgb(146,64,14);
 }
 
 img {
-    background-color: rgb(255,247,237);
+    background-color: #fff7ed;
     display: block;
     margin: 0 auto;
 }
 
 .menu {
     background-color: rgb(254,215,170);
+    text-align: center;
 }
 
 .footer {
