@@ -1,0 +1,38 @@
+*{
+    font-family: cursive, Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(120,53,15);
+    background-color: rgb(253,230,138);
+}
+
+h2 {
+    color: rgb(146,64,14);
+}
+
+img {
+    background-color: rgb(255,247,237);
+    display: block;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: rgb(254,215,170);
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(120,53,15);
+    color: white;
+}
+
+a:hover {
+    background-color: rgb(202, 95, 33);
+    color: white;
+}
+
+li:hover {
+    color: yellow;
+    background-color: #78350f;
+}
