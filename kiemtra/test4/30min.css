@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #C0392B;
+    color: #FFFFFF;
+}
+
+header p {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preface {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.preface {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    background-color: #FFFFFF;
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu h3 {
+    color: #C0392B;
+    background-color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.food-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #EEEEEE;
+    border: 1px solid black;
+}
+
+.foot-card span {
+    color: #C0392B;
+}
+
+.menu h3 {
+    color: #C0392B;
+}
+footer {
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+    text-align: center;
+}
+

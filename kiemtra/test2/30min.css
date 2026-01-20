@@ -1,0 +1,44 @@
+*{
+    font-family: cursive, Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(120,53,15);
+    background-color: rgb(253,230,138);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(146,64,14);
+}
+
+.banner {
+    background-color: rgb(255,247,237);
+}
+
+img {
+    background-color: #fff7ed;
+    display: block;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: rgb(254,215,170);
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(120,53,15);
+    color: white;
+}
+
+a:hover {
+    background-color: rgb(202, 95, 33);
+    color: white;
+}
+
+.doctor-list li:hover {
+    color: yellow;
+    background-color: #78350f;
+}
