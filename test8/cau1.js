@@ -1,5 +1,5 @@
 let students,
-  string = "Quý, Nam, Lan, Hùng, Nam", output = "", message = "";
+  string = "Quý, Nam, Lan, Hùng, Nam", output = "", message = "", reversedArray = [];
 
 students = string.split(", ");
 let i = 1;
