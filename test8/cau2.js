@@ -2,12 +2,12 @@ let price = [100, 200, 300, 400], indexMessage = "", elementMessage = "",sum = 0
 for ( let index in price){
     indexMessage += index + " ";
 }
-alert(indexMessage);
+alert(`Các index trong mảng: ${indexMessage}`);
 
 for ( let element of price) {
     elementMessage += element + " ";
 }
-alert(elementMessage);
+alert(`Các phần tử trong mảng: ${elementMessage}`);
 
 for ( let i = 0; i < price.length; i++){
     if ( i % 2 === 0) {
