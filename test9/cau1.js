@@ -1,17 +1,16 @@
 let orders = ["Đơn hàng A", "Đơn hàng B", "Đơn hàng C", "Đơn hàng D", "Đơn hàng E"];
 let revenues = [1500, 2800, 1200, -500, 3200];
 
-let filterRevenues = revenues.filter((price) => price > 0);
-let totalProfit = filterRevenues.reduce((total,price => total + price,0));
-alert(`Tổng doanh thu các đơn hàng phát sinh lãi là: ${totalProfit}`);
+let orderReports = orders.map((order, index) => {
+    return `${order} mang về ${revenues[index]} USD`;
+});
 
+console.log("--- Danh sách báo cáo ---");
+console.log(orderReports);
 
-let cutOrder = orders.forEach(order => {
-    let part1 = order.split(", ");
-})
+let totalValidRevenue = revenues
+    .filter(revenue => revenue > 0) 
+    .reduce((total, revenue) => total + revenue, 0); 
 
-let cutRevenues = revenues.forEach(revenues => {
-    let part2 = order.split(", ");
-})
-
-let orderReport = [];
+console.log("--- Thống kê doanh thu ---");
+console.log(`Tổng doanh thu của các đơn hàng hợp lệ là: ${totalValidRevenue}`);
