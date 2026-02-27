@@ -8,13 +8,11 @@ const products = [
 
 
 // lấy ra thông tin mã định danh P03
-let findByID = prompt("Nhập vào ID sản phẩm bạn muốn tìm thông tin");
-if (findByID === products[2].id){
-    console.log(products[2]);
-    alert("Vui lòng check kết quả ở F12");
+let productP03 = products.find(p => p.id === "P03");
+if (productP03) {
+    console.log(productP03);
 } else {
-    console.log(`Không tồn tại sản phầm có ID ${findByID}`);
-    alert("Vui lòng check kết quả ở F12");
+    console.log("Không tìm thấy sản phẩm");
 }
 
 //Kiểm tra dữ liệu
@@ -27,6 +25,6 @@ dataCheck ? console.log("Dữ liệu bảng giá hợp lệ") : console.log("Ph�
 let status;
 let catalogDisplay = products.map(p => {
     p.inStock === true ? status = "Còn hàng" : status = "Hết hàng";
-    return [`${products.name} - Giá: ${products.price} - Trạng thái: ${status}`]
+    return [`${p.name} - Giá: ${p.price} - Trạng thái: ${status}`]
 });
 console.log(catalogDisplay);
