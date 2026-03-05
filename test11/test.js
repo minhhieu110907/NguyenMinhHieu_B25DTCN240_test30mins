@@ -7,7 +7,7 @@ const password = document.querySelector("#password");
 const reWritePassword = document.querySelector("#reWritePassword");
 
 
-addBtn.addEventListener("click", (e) =>{
+addBtn.addEventListener("click", function () {
     let emailValue = email.value.trim();
     let passwordValue = password.value;
     let reWritePasswordValue = reWritePassword.value;
@@ -21,4 +21,5 @@ addBtn.addEventListener("click", (e) =>{
     user.push(newUser);
     console.log(user);
 });
+
 
